@@ -1,0 +1,526 @@
+{
+  "originalPage" : 12,
+  "pdf" : 8,
+  "pieces" : 55,
+  "results" : [
+    {
+      "kind" : "paper",
+      "link" : "https:\/\/www.econlib.org\/library\/Essays\/hykKnw.html",
+      "night" : 1,
+      "result" : "original page",
+      "seconds" : 14,
+      "title" : "The Use of Knowledge in Society"
+    },
+    {
+      "kind" : "ai",
+      "link" : "https:\/\/www.anthropic.com\/research\/self-replicating-ai",
+      "night" : 1,
+      "result" : "original page",
+      "seconds" : 22,
+      "title" : "AI Models May Be Capable of Self-Replicating Without Access to a Datacenter"
+    },
+    {
+      "kind" : "essay",
+      "link" : "https:\/\/fee.org\/resources\/i-pencil\/",
+      "minutes" : 12,
+      "night" : 1,
+      "result" : "pdf",
+      "seconds" : 0,
+      "title" : "I, Pencil"
+    },
+    {
+      "kind" : "story",
+      "link" : "https:\/\/americanliterature.com\/author\/leo-tolstoy\/short-story\/how-much-land-does-a-man-need",
+      "night" : 1,
+      "result" : "text",
+      "seconds" : 2,
+      "start" : "An elder sister came to visit her younger sister in the country. The elder was married to a tradesman in town, the younger to a peasant in the village. As",
+      "title" : "How Much Land Does a Man Need?",
+      "words" : 6160
+    },
+    {
+      "kind" : "poem",
+      "link" : "https:\/\/www.poetryfoundation.org\/poems\/46565\/ozymandias",
+      "night" : 1,
+      "result" : "text",
+      "seconds" : 1,
+      "start" : "I met a traveller from an antique land Who said: Two vast and trunkless legs of stone Stand in the desert. Near them, on the sand, Half sunk, a shattered",
+      "title" : "Ozymandias",
+      "words" : 127
+    },
+    {
+      "kind" : "paper",
+      "link" : "https:\/\/fermatslibrary.com\/s\/is-justified-true-belief-knowledge",
+      "minutes" : 9,
+      "night" : 2,
+      "result" : "pdf",
+      "seconds" : 0,
+      "title" : "Is Justified True Belief Knowledge?"
+    },
+    {
+      "kind" : "ai",
+      "link" : "https:\/\/snscratchpad.com\/posts\/models-as-insider-risks\/",
+      "night" : 2,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "As traditional software systems were being deployed across the economy over the last few decades, we had the tools and capability to trace behaviors to a specific code path. That",
+      "title" : "Models as Insider Risks in the Super Intelligence Era",
+      "words" : 785
+    },
+    {
+      "kind" : "essay",
+      "link" : "https:\/\/classics.mit.edu\/Epictetus\/epicench.html",
+      "night" : 2,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "Commentary: A few comments have been posted about The Enchiridion . Download: A 40k text-only version is available for download . The Enchiridion By Epictetus Written 135 A.C.E. Translated by",
+      "title" : "The Enchiridion (first half)",
+      "words" : 7486
+    },
+    {
+      "kind" : "story",
+      "link" : "https:\/\/americanliterature.com\/author\/anton-chekhov\/short-story\/the-bet",
+      "night" : 2,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "by Anton Chekhov I IT WAS a dark autumn night. The old banker was walking up and down his study and remembering how, fifteen years before, he had given a",
+      "title" : "The Bet",
+      "words" : 2905
+    },
+    {
+      "kind" : "poem",
+      "link" : "https:\/\/www.poetryfoundation.org\/poems\/45236\/thirteen-ways-of-looking-at-a-blackbird",
+      "night" : 2,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "I Among twenty snowy mountains,&nbsp;&nbsp;&nbsp; The only moving thing&nbsp;&nbsp;&nbsp; Was the eye of the blackbird.&nbsp;&nbsp;&nbsp; II I was of three minds,&nbsp;&nbsp;&nbsp; Like a tree&nbsp;&nbsp;&nbsp; In which there are three blackbirds.&nbsp;&nbsp;&nbsp;",
+      "title" : "Thirteen Ways of Looking at a Blackbird",
+      "words" : 294
+    },
+    {
+      "kind" : "paper",
+      "link" : "https:\/\/www.nature.com\/articles\/s41586-024-07558-y",
+      "night" : 3,
+      "result" : "original page",
+      "seconds" : 0,
+      "title" : "Neuronal Wiring Diagram of an Adult Brain"
+    },
+    {
+      "kind" : "ai",
+      "link" : "https:\/\/www.nber.org\/papers\/w34910",
+      "minutes" : 207,
+      "night" : 3,
+      "result" : "pdf",
+      "seconds" : 0,
+      "title" : "AI, Human Cognition and Knowledge Collapse"
+    },
+    {
+      "kind" : "essay",
+      "link" : "https:\/\/calteches.library.caltech.edu\/51\/2\/CargoCult.htm",
+      "night" : 3,
+      "result" : "text",
+      "seconds" : 1,
+      "start" : "by RICHARD P. FEYNMAN Some remarks on science, pseudoscience, and learning how to not fool yourself. Caltech’s 1974 commencement address. During the Middle Ages there were all kinds of crazy",
+      "title" : "Cargo Cult Science",
+      "words" : 3815
+    },
+    {
+      "kind" : "story",
+      "link" : "https:\/\/www.lightspeedmagazine.com\/fiction\/exhalation\/",
+      "night" : 3,
+      "result" : "text",
+      "seconds" : 1,
+      "start" : "Published in Apr. 2014 (Issue 47) | 6552 words © 2008 by Ted Chiang. Originally published in Eclipse 2, edited by Jonathan Strahan. Reprinted by permission of the author. It",
+      "title" : "Exhalation",
+      "words" : 6534
+    },
+    {
+      "kind" : "poem",
+      "link" : "https:\/\/www.poetryfoundation.org\/poems\/44399\/pied-beauty",
+      "night" : 3,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "Glory be to God for dappled things – &nbsp;&nbsp;&nbsp;For skies of couple-colour as a brinded cow; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For rose-moles all in stipple upon trout that swim; Fresh-firecoal chestnut-falls; finches’ wings; &nbsp;&nbsp;&nbsp;Landscape",
+      "title" : "Pied Beauty",
+      "words" : 85
+    },
+    {
+      "kind" : "paper",
+      "link" : "https:\/\/courses.lumenlearning.com\/readinganthology\/chapter\/body-ritual-among-the-nacirema-by-horace-miner\/",
+      "night" : 4,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "Most cultures exhibit a particular configuration or style. A single value or pattern of perceiving the world often leaves its stamp on several institutions in the society. Examples are “machismo”",
+      "title" : "Body Ritual among the Nacirema",
+      "words" : 2604
+    },
+    {
+      "kind" : "ai",
+      "link" : "https:\/\/www.anthropic.com\/research\/project-swap",
+      "night" : 4,
+      "result" : "text",
+      "seconds" : 1,
+      "start" : "Summary To see what works and what breaks when agents are sent into a market, we&nbsp;made a miniature market of Claudes—a more controlled sequel to Project Deal , our first",
+      "title" : "Project Swap: What Happens When Agents Trade for Us?",
+      "words" : 6481
+    },
+    {
+      "kind" : "essay",
+      "link" : "https:\/\/hyperessays.net\/cotton\/book\/I\/chapter\/30\/",
+      "night" : 4,
+      "result" : "original page",
+      "seconds" : 12,
+      "title" : "Of Cannibals"
+    },
+    {
+      "kind" : "story",
+      "link" : "https:\/\/www.lightspeedmagazine.com\/fiction\/the-ones-who-stay-and-fight\/",
+      "night" : 4,
+      "result" : "original page",
+      "seconds" : 14,
+      "title" : "The Ones Who Stay and Fight"
+    },
+    {
+      "kind" : "poem",
+      "link" : "https:\/\/poets.org\/poem\/waiting-room",
+      "night" : 4,
+      "result" : "original page",
+      "seconds" : 19,
+      "title" : "In the Waiting Room"
+    },
+    {
+      "kind" : "paper",
+      "link" : "https:\/\/www.nature.com\/articles\/s41586-025-08800-x",
+      "night" : 5,
+      "result" : "original page",
+      "seconds" : 4,
+      "title" : "A Natural Experiment on the Effect of Herpes Zoster Vaccination on Dementia"
+    },
+    {
+      "kind" : "ai",
+      "link" : "https:\/\/metr.org\/blog\/2025-03-19-measuring-ai-ability-to-complete-long-tasks\/",
+      "night" : 5,
+      "result" : "text",
+      "seconds" : 1,
+      "start" : "Analysis code is available on GitHub . Raw data available here These are our TH1.1 measurements of the task-completion time horizons for public language models, which we are no longer",
+      "title" : "Measuring AI Ability to Complete Long Tasks",
+      "words" : 1716
+    },
+    {
+      "kind" : "essay",
+      "link" : "https:\/\/stoics.com\/seneca_epistles_book_1.html",
+      "night" : 5,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "translated by Richard Mott Gummere Seneca greets his friend Lucilius. Continue to act thus, my dear Lucilius — set yourself free for your own sake; gather and save your time,",
+      "title" : "On Saving Time (Letter 1)",
+      "words" : 511
+    },
+    {
+      "kind" : "story",
+      "link" : "https:\/\/www.katechopin.org\/story-hour\/",
+      "night" : 5,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "by Kate Chopin Knowing that Mrs. Mallard was afflicted with a heart trouble, great care was taken to break to her as gently as possible the news of her husband’s",
+      "title" : "The Story of an Hour",
+      "words" : 1122
+    },
+    {
+      "kind" : "poem",
+      "link" : "https:\/\/www.poetryfoundation.org\/poems\/44484\/to-autumn",
+      "night" : 5,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "Season of mists and mellow fruitfulness, &nbsp;&nbsp;&nbsp;Close bosom-friend of the maturing sun; Conspiring with him how to load and bless &nbsp;&nbsp;&nbsp;With fruit the vines that round the thatch-eves run; To",
+      "title" : "To Autumn",
+      "words" : 242
+    },
+    {
+      "kind" : "paper",
+      "link" : "https:\/\/catalogimages.wiley.com\/images\/db\/pdf\/9781119622604.c01.2.pdf",
+      "minutes" : 21,
+      "night" : 6,
+      "result" : "pdf",
+      "seconds" : 0,
+      "title" : "Art as Technique"
+    },
+    {
+      "kind" : "ai",
+      "link" : "https:\/\/www.oneusefulthing.org\/p\/choosing-to-stay-human",
+      "night" : 6,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "If you go to your favorite social media site, you will find it full of posts that start to look suspiciously similar to each other: Many of the comments to",
+      "title" : "Choosing to Stay Human",
+      "words" : 1791
+    },
+    {
+      "kind" : "essay",
+      "link" : "https:\/\/www.orwellfoundation.com\/the-orwell-foundation\/orwell\/essays-and-other-works\/politics-and-the-english-language\/",
+      "night" : 6,
+      "result" : "text",
+      "seconds" : 1,
+      "start" : "This material remains under copyright in some jurisdictions, including the US, and is reproduced here with the permission of the Orwell Estate . If you value these resources, please consider",
+      "title" : "Politics and the English Language",
+      "words" : 5498
+    },
+    {
+      "kind" : "story",
+      "link" : "https:\/\/americanliterature.com\/author\/james-joyce\/short-story\/araby",
+      "night" : 6,
+      "result" : "original page",
+      "seconds" : 0,
+      "title" : "Araby"
+    },
+    {
+      "kind" : "poem",
+      "link" : "https:\/\/www.poetryfoundation.org\/poetrymagazine\/poems\/44212\/the-love-song-of-j-alfred-prufrock",
+      "night" : 6,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "S’io credesse che mia risposta fosse A persona che mai tornasse al mondo, Questa fiamma staria senza piu scosse. Ma percioche giammai di questo fondo Non tornò vivo alcun, s’i’odo",
+      "title" : "The Love Song of J. Alfred Prufrock",
+      "words" : 1129
+    },
+    {
+      "kind" : "paper",
+      "link" : "https:\/\/www.gwern.net\/doc\/science\/1977-purcell.pdf",
+      "minutes" : 25,
+      "night" : 7,
+      "result" : "pdf",
+      "seconds" : 0,
+      "title" : "Life at Low Reynolds Number"
+    },
+    {
+      "kind" : "ai",
+      "link" : "https:\/\/www.anthropic.com\/research\/yes-claude-can-do-nine-loops",
+      "night" : 7,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "In this guest post, physicist and science writer Matt von Hippel shares what happened when he issued a challenge to AI companies regarding a problem in his former subfield of",
+      "title" : "Yes, Claude Can Do Nine Loops",
+      "words" : 3400
+    },
+    {
+      "kind" : "essay",
+      "link" : "https:\/\/gutenberg.org\/files\/1315\/1315-h\/1315-h.htm#link2H_4_0010",
+      "night" : 7,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "On a Piece of Chalk Macmillan's Magazine (1868) Collected Essays VIII [1] If a well were sunk at our feet in the midst of the city of Norwich, the diggers",
+      "title" : "On a Piece of Chalk",
+      "words" : 8999
+    },
+    {
+      "kind" : "story",
+      "link" : "https:\/\/reactormag.com\/the-lady-astronaut-of-mars\/",
+      "night" : 7,
+      "result" : "text",
+      "seconds" : 1,
+      "start" : "Introductory note: Mary Robinette Kowal’s novelette “The Lady Astronaut of Mars” was first published in 2012 as part of RIP-OFF , an original audiobook anthology from Audible.com. It was later",
+      "title" : "The Lady Astronaut of Mars",
+      "words" : 8246
+    },
+    {
+      "kind" : "poem",
+      "link" : "https:\/\/www.poetryfoundation.org\/poems\/45479\/when-i-heard-the-learnd-astronomer",
+      "night" : 7,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "When I heard the learn’d astronomer, When the proofs, the figures, were ranged in columns before me, When I was shown the charts and diagrams, to add, divide, and measure",
+      "title" : "When I Heard the Learn'd Astronomer",
+      "words" : 82
+    },
+    {
+      "kind" : "paper",
+      "link" : "https:\/\/www.nature.com\/articles\/s41586-022-04448-z",
+      "night" : 8,
+      "result" : "original page",
+      "seconds" : 0,
+      "title" : "Restoring and Attributing Ancient Texts Using Deep Neural Networks"
+    },
+    {
+      "kind" : "ai",
+      "link" : "https:\/\/www.anthropic.com\/research\/the-missing-map-of-the-sky",
+      "night" : 8,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "Here, Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky",
+      "title" : "The Missing Map of the Sky",
+      "words" : 1696
+    },
+    {
+      "kind" : "essay",
+      "link" : "https:\/\/antigonejournal.com\/2023\/01\/on-not-knowing-greek\/",
+      "night" : 8,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "Virginia Woolf One hundred years ago, as a diversion from writing her novel Mrs Dalloway , Virginia Woolf (1882–1941) set about describing her complex, intimate relationship with Ancient Greek. Her",
+      "title" : "On Not Knowing Greek",
+      "words" : 8180
+    },
+    {
+      "kind" : "story",
+      "link" : "https:\/\/americanliterature.com\/author\/guy-de-maupassant\/short-story\/the-necklace",
+      "night" : 8,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "She was one of those pretty and charming girls born, as if by an error of fate, into a family of clerks. She had no dowry, no expectations, no means",
+      "title" : "The Necklace",
+      "words" : 2795
+    },
+    {
+      "kind" : "poem",
+      "link" : "https:\/\/www.poetryfoundation.org\/poems\/51296\/ithaka-56d22eef917ec",
+      "night" : 8,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "As you set out for Ithaka hope your road is a long one, full of adventure, full of discovery. Laistrygonians, Cyclops, angry Poseidon—don’t be afraid of them: you’ll never find",
+      "title" : "Ithaka",
+      "words" : 303
+    },
+    {
+      "kind" : "paper",
+      "link" : "https:\/\/www.math.utoronto.ca\/mccann\/assignments\/477\/GaleShapley62.pdf",
+      "minutes" : 24,
+      "night" : 9,
+      "result" : "pdf",
+      "seconds" : 0,
+      "title" : "College Admissions and the Stability of Marriage"
+    },
+    {
+      "kind" : "ai",
+      "link" : "https:\/\/digitaleconomy.stanford.edu\/app\/uploads\/2026\/08\/Canaries_August2026.pdf",
+      "minutes" : 420,
+      "night" : 9,
+      "result" : "pdf",
+      "seconds" : 0,
+      "title" : "Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of AI"
+    },
+    {
+      "kind" : "essay",
+      "link" : "http:\/\/classics.mit.edu\/Antoninus\/meditations.2.two.html",
+      "night" : 9,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "Commentary: Quite a few comments have been posted about The Meditations . Download: A text-only version is available for download . The Meditations By Marcus Aurelius Written 167 A.C.E. Translated",
+      "title" : "Meditations, Book 2",
+      "words" : 2368
+    },
+    {
+      "kind" : "story",
+      "link" : "https:\/\/americanliterature.com\/author\/o-henry\/short-story\/the-gift-of-the-magi",
+      "night" : 9,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "One dollar and eighty-seven cents. That was all. And sixty cents of it was in pennies. Pennies saved one and two at a time by bulldozing the grocer and the",
+      "title" : "The Gift of the Magi",
+      "words" : 2057
+    },
+    {
+      "kind" : "poem",
+      "link" : "https:\/\/www.poetryfoundation.org\/poems\/45106\/sonnet-116-let-me-not-to-the-marriage-of-true-minds",
+      "night" : 9,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "Let me not to the marriage of true minds Admit impediments; love is not love Which alters when it alteration finds, Or bends with the remover to remove. O no,",
+      "title" : "Sonnet 116",
+      "words" : 141
+    },
+    {
+      "kind" : "paper",
+      "link" : "https:\/\/gwern.net\/doc\/psychology\/linguistics\/2024-fedorenko.pdf",
+      "minutes" : 25,
+      "night" : 10,
+      "result" : "pdf",
+      "seconds" : 0,
+      "title" : "Language Is Primarily a Tool for Communication Rather than Thought"
+    },
+    {
+      "kind" : "ai",
+      "link" : "https:\/\/www.anthropic.com\/research\/tracing-thoughts-language-model",
+      "night" : 10,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "Language models like Claude aren't programmed directly by humans—instead, they‘re trained on large amounts of data. During that training process, they learn their own strategies to solve problems. These strategies",
+      "title" : "Tracing the Thoughts of a Large Language Model",
+      "words" : 3179
+    },
+    {
+      "kind" : "essay",
+      "link" : "https:\/\/paulgraham.com\/writes.html",
+      "night" : 10,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "October 2024 I'm usually reluctant to make predictions about technology, but I feel fairly confident about this one: in a couple decades there won't be many people who can write.",
+      "title" : "Writes and Write-Nots",
+      "words" : 541
+    },
+    {
+      "kind" : "story",
+      "link" : "https:\/\/www.lightspeedmagazine.com\/fiction\/mono-no-aware\/",
+      "night" : 10,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "The world is shaped like the kanji for umbrella , only written so poorly, like my handwriting, that all the parts are out of proportion. My father would be greatly",
+      "title" : "Mono no Aware",
+      "words" : 6077
+    },
+    {
+      "kind" : "poem",
+      "link" : "https:\/\/www.poetryfoundation.org\/poems\/47555\/digging",
+      "night" : 10,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "Between my finger and my thumb&nbsp;&nbsp;&nbsp; The squat pen rests; snug as a gun. Under my window, a clean rasping sound&nbsp;&nbsp;&nbsp; When the spade sinks into gravelly ground:&nbsp;&nbsp;&nbsp; My father,",
+      "title" : "Digging",
+      "words" : 286
+    },
+    {
+      "kind" : "pick",
+      "link" : "https:\/\/www.axios.com\/2026\/10\/13\/openai-anthropic-revenue-finances",
+      "night" : -1,
+      "result" : "original page",
+      "seconds" : 0,
+      "title" : "News about AI startups' financials can be suspect"
+    },
+    {
+      "kind" : "pick",
+      "link" : "https:\/\/www.wsj.com\/business\/deals\/kimberly-clark-kenvue-win-conditional-eu-approval-for-40-billion-tie-up-1964639a",
+      "night" : -1,
+      "result" : "original page",
+      "seconds" : 0,
+      "title" : "Kimberly-Clark, Kenvue Win Conditional EU Approval for $40 Billion Tie-Up"
+    },
+    {
+      "kind" : "pick",
+      "link" : "https:\/\/techcrunch.com\/2026\/10\/13\/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy\/",
+      "night" : -1,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "Only five years into its journey, Character.AI, which lets users create AI characters and have conversations with them, has filed for Chapter 11 bankruptcy, following a slew of lawsuits and",
+      "title" : "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+      "words" : 738
+    },
+    {
+      "kind" : "pick",
+      "link" : "https:\/\/www.nytimes.com\/2026\/10\/13\/business\/dealbook\/dealbook-summit-lineup.html",
+      "night" : -1,
+      "result" : "original page",
+      "seconds" : 0,
+      "title" : "Vance, Altman, Musk, Mamdani, Bieber and More at the DealBook Summit"
+    },
+    {
+      "kind" : "pick",
+      "link" : "https:\/\/www.anthropic.com\/research\/distillation-defenses",
+      "night" : -1,
+      "result" : "text",
+      "seconds" : 0,
+      "start" : "In recent months, we’ve made substantial progress on reducing the effectiveness of distillation attacks on Claude using new methods, as we outline in this blog. Early evidence suggests that these",
+      "title" : "Strengthening our defenses against distillation attacks",
+      "words" : 2070
+    }
+  ],
+  "text" : 35
+}
