@@ -39,7 +39,8 @@
           "title": "I, Pencil",
           "by": "Leonard Read",
           "url": "https://fee.org/resources/i-pencil/",
-          "note": "No single person knows how to make a pencil."
+          "note": "No single person knows how to make a pencil.",
+          "readUrl": "https://imprimis.hillsdale.edu/wp-content/uploads/2016/11/Imprimis-I-Pencil-My-Family-Tree-as-Told-to-Leonard-E.-Read-Dec-1983.pdf"
         }
       }
     },
@@ -69,7 +70,8 @@
           "title": "The Bet",
           "by": "Anton Chekhov",
           "url": "https://americanliterature.com/author/anton-chekhov/short-story/the-bet",
-          "note": "A lawyer bets 15 years of his life on reading."
+          "note": "A lawyer bets 15 years of his life on reading.",
+          "readUrl": "https://ibiblio.org/eldritch/ac/jr/154.htm"
         },
         "poem": {
           "title": "Thirteen Ways of Looking at a Blackbird",
@@ -97,13 +99,15 @@
         "paper": {
           "title": "Neuronal Wiring Diagram of an Adult Brain",
           "by": "Dorkenwald et al., Nature, 2024",
-          "url": "https://www.nature.com/articles/s41586-024-07558-y"
+          "url": "https://www.nature.com/articles/s41586-024-07558-y",
+          "readUrl": "https://www.nature.com/articles/s41586-024-07558-y.pdf"
         },
         "ai": {
           "title": "AI, Human Cognition and Knowledge Collapse",
           "by": "Acemoglu, Kong and Ozdaglar (MIT), 2026",
           "url": "https://www.nber.org/papers/w34910",
-          "note": "Personalised AI advice could weaken shared knowledge over time. Free PDF on the page."
+          "note": "Personalised AI advice could weaken shared knowledge over time. Free PDF on the page.",
+          "readUrl": "https://shapingwork.mit.edu/wp-content/uploads/2026/03/Acemoglu-et-al-February-2026.pdf"
         },
         "story": {
           "title": "Exhalation",
@@ -177,7 +181,8 @@
         "paper": {
           "title": "A Natural Experiment on the Effect of Herpes Zoster Vaccination on Dementia",
           "by": "Eyting et al., Nature, 2025",
-          "url": "https://www.nature.com/articles/s41586-025-08800-x"
+          "url": "https://www.nature.com/articles/s41586-025-08800-x",
+          "readUrl": "https://www.nature.com/articles/s41586-025-08800-x.pdf"
         },
         "ai": {
           "title": "Measuring AI Ability to Complete Long Tasks",
@@ -201,7 +206,8 @@
           "title": "On Saving Time (Letter 1)",
           "by": "Seneca",
           "url": "https://stoics.com/seneca_epistles_book_1.html",
-          "note": "At the top of the page."
+          "note": "At the top of the page.",
+          "readUrl": "https://monadnock.net/seneca/1.html"
         }
       }
     },
@@ -229,7 +235,8 @@
         "story": {
           "title": "Araby",
           "by": "James Joyce",
-          "url": "https://americanliterature.com/author/james-joyce/short-story/araby"
+          "url": "https://americanliterature.com/author/james-joyce/short-story/araby",
+          "readUrl": "https://anthology.lib.virginia.edu/work/Joyce/joyce-araby"
         },
         "poem": {
           "title": "The Love Song of J. Alfred Prufrock",
@@ -281,7 +288,8 @@
           "title": "On a Piece of Chalk",
           "by": "T. H. Huxley",
           "url": "https://gutenberg.org/files/1315/1315-h/1315-h.htm#link2H_4_0010",
-          "note": "What chalk shows about Earth's history."
+          "note": "What chalk shows about Earth's history.",
+          "readUrl": "https://mathcs.clarku.edu/huxley/CE8/Chalk.html"
         }
       }
     },
@@ -298,7 +306,8 @@
         "paper": {
           "title": "Restoring and Attributing Ancient Texts Using Deep Neural Networks",
           "by": "Assael et al., Nature, 2022",
-          "url": "https://www.nature.com/articles/s41586-022-04448-z"
+          "url": "https://www.nature.com/articles/s41586-022-04448-z",
+          "readUrl": "https://www.nature.com/articles/s41586-022-04448-z.pdf"
         },
         "ai": {
           "title": "The Missing Map of the Sky",
@@ -309,7 +318,8 @@
         "story": {
           "title": "The Necklace",
           "by": "Guy de Maupassant",
-          "url": "https://americanliterature.com/author/guy-de-maupassant/short-story/the-necklace"
+          "url": "https://americanliterature.com/author/guy-de-maupassant/short-story/the-necklace",
+          "readUrl": "https://www.eastoftheweb.com/short-stories/UBooks/Neck.shtml"
         },
         "poem": {
           "title": "Ithaka",
@@ -347,7 +357,8 @@
         "story": {
           "title": "The Gift of the Magi",
           "by": "O. Henry",
-          "url": "https://americanliterature.com/author/o-henry/short-story/the-gift-of-the-magi"
+          "url": "https://americanliterature.com/author/o-henry/short-story/the-gift-of-the-magi",
+          "readUrl": "https://www.gutenberg.org/cache/epub/7256/pg7256-images.html"
         },
         "poem": {
           "title": "Sonnet 116",
