@@ -103,6 +103,7 @@ struct SettingsView: View {
                 }
 
                 Section {
+                    Toggle("Dim further as it gets later", isOn: $settings.lateDimming)
                     Toggle("Keep the screen on while reading", isOn: $settings.keepAwake)
                     NavigationLink("Text and colours") {
                         AppearancePanel()
@@ -112,7 +113,7 @@ struct SettingsView: View {
                 } header: {
                     Text("Reading")
                 } footer: {
-                    Text("Leave the screen-on switch off if you might drift off mid-story: the iPad will lock itself as usual.")
+                    Text("A dimmer screen matters more for sleep than its colour, so the page gets a touch darker after 10pm and again after 11pm. Leave the screen-on switch off if you might drift off mid-story.")
                 }
 
                 Section {

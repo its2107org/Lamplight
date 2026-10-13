@@ -57,7 +57,7 @@ struct ReaderView: View {
             }
 
             // Extra dimming, beyond the screen's own lowest brightness.
-            Color.black.opacity(settings.dimmer).ignoresSafeArea().allowsHitTesting(false)
+            Color.black.opacity(settings.effectiveDimmer()).ignoresSafeArea().allowsHitTesting(false)
         }
         .statusBarHidden(!chrome || showGoodnight)
         .persistentSystemOverlays(.hidden)

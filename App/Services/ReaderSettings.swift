@@ -2,7 +2,7 @@ import SwiftUI
 
 /// Colour schemes for the page. All warm and dark: nothing bright or blue before sleep.
 enum PageTheme: String, CaseIterable, Identifiable {
-    case ember, candle, moonless
+    case ember, candle, moonless, darkroom
 
     var id: String { rawValue }
 
@@ -11,6 +11,7 @@ enum PageTheme: String, CaseIterable, Identifiable {
         case .ember: return "Ember"
         case .candle: return "Candle"
         case .moonless: return "Moonless"
+        case .darkroom: return "Red light"
         }
     }
 
@@ -20,6 +21,8 @@ enum PageTheme: String, CaseIterable, Identifiable {
         case .ember: return ("#0E0A07", "#E2C49C", "#9C8467", "#E0904A")
         case .candle: return ("#1C150F", "#EBDDC6", "#A8957C", "#D9A066")
         case .moonless: return ("#000000", "#A39686", "#6E6457", "#B07A45")
+        // Dim red on black, like an astronomer's torch: almost none of the light that keeps you awake.
+        case .darkroom: return ("#000000", "#C8604A", "#8A4334", "#B0503C")
         }
     }
 
@@ -70,13 +73,23 @@ final class ReaderSettings: ObservableObject {
     @AppStorage("pageFont") var font: PageFont = .newYork { willSet { objectWillChange.send() } }
     @AppStorage("textSize") var textSize: Double = 21 { willSet { objectWillChange.send() } }
     /// Extra dimming on top of the screen's own brightness (0 = none).
-    @AppStorage("dimmer") var dimmer: Double = 0.15 { willSet { objectWillChange.send() } }
+    @AppStorage("dimmer") var dimmer: Double = 0.3 { willSet { objectWillChange.send() } }
+    /// Dims the page a little more as the evening gets later.
+    @AppStorage("lateDimming") var lateDimming = true { willSet { objectWillChange.send() } }
     @AppStorage("keepAwake") var keepAwake = false { willSet { objectWillChange.send() } }
     @AppStorage("reminderOn") var reminderOn = false { willSet { objectWillChange.send() } }
     /// Minutes after midnight for the wind-down reminder (default 9.30pm).
     @AppStorage("reminderMinutes") var reminderMinutes = 21 * 60 + 30 { willSet { objectWillChange.send() } }
 
     static let sizes: ClosedRange<Double> = 16...32
+
+    /// The dimming actually used: your setting, plus a little extra after 10pm and 11pm.
+    func effectiveDimmer(at date: Date = Date()) -> Double {
+        guard lateDimming else { return dimmer }
+        let hour = Calendar.current.component(.hour, from: date)
+        let extra: Double = (hour >= 23 || hour < 4) ? 0.15 : (hour >= 22 ? 0.08 : 0)
+        return min(dimmer + extra, 0.85)
+    }
 
     var reminderTime: Date {
         get { Calendar.current.date(bySettingHour: reminderMinutes / 60, minute: reminderMinutes % 60, second: 0, of: Date()) ?? Date() }
