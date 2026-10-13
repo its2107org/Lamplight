@@ -1,17 +1,17 @@
 {
   "challenge": "Ray Bradbury reading challenge",
   "schedule": "Mon, Tue, Wed, Thu, Sun",
-  "start": "2026-10-12",
+  "start": "2026-10-13",
   "nights": [
     {
       "night": 1,
-      "date": "Mon 12 Oct",
-      "isoDate": "2026-10-12",
+      "date": "Tue 13 Oct",
+      "isoDate": "2026-10-13",
       "theme": "No one is in charge",
-      "themeLine": "Prices, pencils and empires: how big systems run (or fall) without a centre. Then an AI that could spread with no off switch.",
+      "themeLine": "Systems that work without anyone running them.",
       "field": "Economics",
       "paperType": "classic of its field",
-      "learn": "Why prices work like a giant information network that no central planner could ever replace.",
+      "learn": "Prices pass on information that no single planner could ever collect.",
       "items": {
         "paper": {
           "title": "The Use of Knowledge in Society",
@@ -22,7 +22,7 @@
           "title": "AI Models May Be Capable of Self-Replicating Without Access to a Datacenter",
           "by": "Anthropic, 12 Oct 2026",
           "url": "https://www.anthropic.com/research/self-replicating-ai",
-          "note": "Small AI models may soon be able to copy themselves onto cheap gadgets like TV boxes, with no datacenter needed."
+          "note": "Small AI models may soon be able to copy themselves onto cheap devices like TV boxes."
         },
         "story": {
           "title": "How Much Land Does a Man Need?",
@@ -39,19 +39,19 @@
           "title": "I, Pencil",
           "by": "Leonard Read",
           "url": "https://fee.org/resources/i-pencil/",
-          "note": "Hayek's idea told by a pencil: no one person knows how to make one."
+          "note": "No single person knows how to make a pencil."
         }
       }
     },
     {
       "night": 2,
-      "date": "Tue 13 Oct",
-      "isoDate": "2026-10-13",
+      "date": "Wed 14 Oct",
+      "isoDate": "2026-10-14",
       "theme": "How do you know?",
-      "themeLine": "Gettier asks when a true belief counts as knowledge. Chekhov's reader, Stevens's thirteen viewpoints and Epictetus test what we can be sure of. Nadella asks whether we can trust our AI at all.",
+      "themeLine": "When a belief counts as knowledge.",
       "field": "Philosophy",
       "paperType": "classic of its field",
-      "learn": "Why \"a true belief with good reasons\" isn't the same as knowing something. Three pages that upset a definition going back to Plato.",
+      "learn": "Why a true belief with good reasons isn't always knowledge.",
       "items": {
         "paper": {
           "title": "Is Justified True Belief Knowledge?",
@@ -63,7 +63,7 @@
           "title": "Models as Insider Risks in the Super Intelligence Era",
           "by": "Satya Nadella, Microsoft CEO, 10 Oct 2026",
           "url": "https://snscratchpad.com/posts/models-as-insider-risks/",
-          "note": "Microsoft's boss argues companies should treat AI models like a possibly compromised employee, with an emergency brake outside the model."
+          "note": "Companies should treat AI models as a security risk and keep an off switch outside them."
         },
         "story": {
           "title": "The Bet",
@@ -80,19 +80,19 @@
           "title": "The Enchiridion (first half)",
           "by": "Epictetus",
           "url": "https://classics.mit.edu/Epictetus/epicench.html",
-          "note": "A Stoic's handbook: what is and isn't in your control."
+          "note": "A Stoic handbook on what is and isn't in your control."
         }
       }
     },
     {
       "night": 3,
-      "date": "Wed 14 Oct",
-      "isoDate": "2026-10-14",
-      "theme": "Looking inside the thinking machine",
-      "themeLine": "A fly's brain mapped cell by cell, a mechanical being dissecting its own mind, and Acemoglu on what AI might do to the knowledge we share.",
+      "date": "Thu 15 Oct",
+      "isoDate": "2026-10-15",
+      "theme": "Inside the thinking machine",
+      "themeLine": "Mapping how minds work.",
       "field": "Neuroscience",
       "paperType": "new research",
-      "learn": "How scientists mapped every cell and connection in a fruit fly's brain (about 140,000 neurons) and what the map already reveals.",
+      "learn": "Scientists have mapped all 140,000 neurons in a fruit fly's brain.",
       "items": {
         "paper": {
           "title": "Neuronal Wiring Diagram of an Adult Brain",
@@ -103,13 +103,13 @@
           "title": "AI, Human Cognition and Knowledge Collapse",
           "by": "Acemoglu, Kong and Ozdaglar (MIT), 2026",
           "url": "https://www.nber.org/papers/w34910",
-          "note": "A Nobel-winning economist's warning: AI that gives us great personal advice may slowly erode what we know collectively. Free PDF on the page."
+          "note": "Personalised AI advice could weaken shared knowledge over time. Free PDF on the page."
         },
         "story": {
           "title": "Exhalation",
           "by": "Ted Chiang",
           "url": "https://www.lightspeedmagazine.com/fiction/exhalation/",
-          "note": "Modern. A mechanical being opens up its own brain to see how it thinks."
+          "note": "Modern. A mechanical being examines its own brain."
         },
         "poem": {
           "title": "Pied Beauty",
@@ -126,13 +126,13 @@
     },
     {
       "night": 4,
-      "date": "Thu 15 Oct",
-      "isoDate": "2026-10-15",
+      "date": "Sun 18 Oct",
+      "isoDate": "2026-10-18",
       "theme": "Strangers to ourselves",
-      "themeLine": "Miner, Montaigne and Bishop each make familiar people look foreign. Jemisin tours a perfect society, and AI agents struggle to understand their own humans.",
+      "themeLine": "Seeing your own culture as an outsider would.",
       "field": "Anthropology",
       "paperType": "classic of its field",
-      "learn": "How anthropologists make the familiar look strange. A famous satire that studies a \"tribe\" with odd body rituals (spell its name backwards).",
+      "learn": "A 1956 parody that describes American habits as if they were a strange tribe's.",
       "items": {
         "paper": {
           "title": "Body Ritual among the Nacirema",
@@ -143,37 +143,36 @@
           "title": "Project Swap: What Happens When Agents Trade for Us?",
           "by": "Anthropic, 24 Sep 2026",
           "url": "https://www.anthropic.com/research/project-swap",
-          "note": "201 people's AI agents ran a book-swap market. The trading went well; knowing what their owners wanted didn't."
+          "note": "Employees' AI agents traded books for them. They often misjudged what their owners wanted."
         },
         "story": {
           "title": "The Ones Who Stay and Fight",
           "by": "N. K. Jemisin",
           "url": "https://www.lightspeedmagazine.com/fiction/the-ones-who-stay-and-fight/",
-          "note": "Modern. A guided tour of a near-perfect city, and what it costs."
+          "note": "Modern. A near-perfect city and what it costs."
         },
         "poem": {
           "title": "In the Waiting Room",
           "by": "Elizabeth Bishop",
-          "url": "https://poets.org/poem/waiting-room",
-          "note": "A seven-year-old, a National Geographic, and the shock of being one person among many."
+          "url": "https://poets.org/poem/waiting-room"
         },
         "essay": {
           "title": "Of Cannibals",
           "by": "Montaigne",
           "url": "https://hyperessays.net/cotton/book/I/chapter/30/",
-          "note": "\"Everyone calls barbarous what is not his own custom.\" Written in 1580."
+          "note": "Written in 1580."
         }
       }
     },
     {
       "night": 5,
-      "date": "Sun 18 Oct",
-      "isoDate": "2026-10-18",
+      "date": "Mon 19 Oct",
+      "isoDate": "2026-10-19",
       "theme": "What we do with our time",
-      "themeLine": "A vaccine that may protect memory, one hour of unexpected freedom, Seneca on time as our only true possession, and AI's rapidly growing attention span.",
+      "themeLine": "Time and how we spend it.",
       "field": "Medicine",
       "paperType": "new research",
-      "learn": "How a birthday cut-off in Wales's vaccine rules created a natural experiment suggesting the shingles vaccine lowers dementia risk by about a fifth.",
+      "learn": "A Welsh vaccine rule suggests the shingles jab cuts dementia risk by about 20%.",
       "items": {
         "paper": {
           "title": "A Natural Experiment on the Effect of Herpes Zoster Vaccination on Dementia",
@@ -184,18 +183,19 @@
           "title": "Measuring AI Ability to Complete Long Tasks",
           "by": "METR, 2025",
           "url": "https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/",
-          "note": "The chart everyone in AI cites: the length of tasks AI can do on its own keeps doubling."
+          "note": "The length of tasks AI can do on its own has been doubling roughly every seven months."
         },
         "story": {
           "title": "The Story of an Hour",
           "by": "Kate Chopin",
           "url": "https://www.katechopin.org/story-hour/",
-          "note": "Five minutes, one twist."
+          "note": "Very short."
         },
         "poem": {
-          "title": "The Summer Day",
-          "by": "Mary Oliver",
-          "url": "https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poet-laureate-projects/poetry-180/all-poems/item/poetry-180-133/the-summer-day/"
+          "title": "To Autumn",
+          "by": "John Keats",
+          "url": "https://www.poetryfoundation.org/poems/44484/to-autumn",
+          "note": "Written in 1819."
         },
         "essay": {
           "title": "On Saving Time (Letter 1)",
@@ -207,13 +207,13 @@
     },
     {
       "night": 6,
-      "date": "Mon 19 Oct",
-      "isoDate": "2026-10-19",
+      "date": "Tue 20 Oct",
+      "isoDate": "2026-10-20",
       "theme": "Seeing it fresh",
-      "themeLine": "Shklovsky says art exists to make the familiar strange again. Joyce, Collins and Orwell each do it with words, and Mollick argues for deciding on purpose when to let AI think for you.",
+      "themeLine": "Making the familiar feel new.",
       "field": "Literary theory",
       "paperType": "classic of its field",
-      "learn": "\"Defamiliarisation\": the idea that art exists to make familiar things feel new again. It's the whole point of Bradbury's challenge.",
+      "learn": "Shklovsky's idea that art exists to make familiar things feel strange again.",
       "items": {
         "paper": {
           "title": "Art as Technique",
@@ -224,7 +224,7 @@
           "title": "Choosing to Stay Human",
           "by": "Ethan Mollick (Wharton), May 2026",
           "url": "https://www.oneusefulthing.org/p/choosing-to-stay-human",
-          "note": "Why to decide on purpose when AI thinks for you, before \"cognitive surrender\" dulls your own judgment."
+          "note": "Decide deliberately which thinking to hand to AI."
         },
         "story": {
           "title": "Araby",
@@ -232,9 +232,10 @@
           "url": "https://americanliterature.com/author/james-joyce/short-story/araby"
         },
         "poem": {
-          "title": "Introduction to Poetry",
-          "by": "Billy Collins",
-          "url": "https://www.poetryfoundation.org/poems/46712/introduction-to-poetry"
+          "title": "The Love Song of J. Alfred Prufrock",
+          "by": "T. S. Eliot",
+          "url": "https://www.poetryfoundation.org/poetrymagazine/poems/44212/the-love-song-of-j-alfred-prufrock",
+          "note": "About ten minutes."
         },
         "essay": {
           "title": "Politics and the English Language",
@@ -245,25 +246,25 @@
     },
     {
       "night": 7,
-      "date": "Tue 20 Oct",
-      "isoDate": "2026-10-20",
+      "date": "Wed 21 Oct",
+      "isoDate": "2026-10-21",
       "theme": "Scale changes everything",
-      "themeLine": "Purcell's bacteria live by different rules, chalk holds Earth's history in tiny shells, and an AI completes a calculation physicists thought was out of reach.",
+      "themeLine": "Why the rules change at very small sizes.",
       "field": "Physics",
       "paperType": "classic of its field",
-      "learn": "Why swimming is completely different for a bacterium. At its size water feels like thick syrup, and the usual tricks don't work.",
+      "learn": "For bacteria, water behaves like thick syrup, so swimming works differently.",
       "items": {
         "paper": {
           "title": "Life at Low Reynolds Number",
           "by": "E. M. Purcell, 1977",
           "url": "https://www.gwern.net/doc/science/1977-purcell.pdf",
-          "note": "A Nobel-winning physicist's famously funny lecture."
+          "note": "A 1976 lecture by a Nobel-winning physicist."
         },
         "ai": {
           "title": "Yes, Claude Can Do Nine Loops",
           "by": "Anthropic guest post, 25 Sep 2026",
           "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
-          "note": "A physicist dared AI labs to do a famously hard calculation on a small budget. Claude did it. Pairs with tonight's physics."
+          "note": "Claude completed a hard physics calculation on a small budget."
         },
         "story": {
           "title": "The Lady Astronaut of Mars",
@@ -280,19 +281,19 @@
           "title": "On a Piece of Chalk",
           "by": "T. H. Huxley",
           "url": "https://gutenberg.org/files/1315/1315-h/1315-h.htm#link2H_4_0010",
-          "note": "What a lump of chalk reveals about Earth's history."
+          "note": "What chalk shows about Earth's history."
         }
       }
     },
     {
       "night": 8,
-      "date": "Wed 21 Oct",
-      "isoDate": "2026-10-21",
+      "date": "Thu 22 Oct",
+      "isoDate": "2026-10-22",
       "theme": "Filling in the gaps",
-      "themeLine": "An AI restores missing letters on ancient stones, another fills in the unseen third of the sky, and Woolf asks how much of the Greeks we can ever recover.",
+      "themeLine": "Recovering what's missing.",
       "field": "Classics and AI",
       "paperType": "new research",
-      "learn": "How an AI called Ithaca fills in missing letters on worn ancient Greek inscriptions and guesses when and where they were carved, and how much it helps real historians.",
+      "learn": "An AI that restores missing words on ancient Greek inscriptions and dates them.",
       "items": {
         "paper": {
           "title": "Restoring and Attributing Ancient Texts Using Deep Neural Networks",
@@ -303,7 +304,7 @@
           "title": "The Missing Map of the Sky",
           "by": "Anthropic, 8 Oct 2026",
           "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
-          "note": "An astrophysicist used AI to build the first complete ultraviolet map of the sky, filling in the third nobody had observed."
+          "note": "AI helped build the first complete ultraviolet map of the sky."
         },
         "story": {
           "title": "The Necklace",
@@ -324,13 +325,13 @@
     },
     {
       "night": 9,
-      "date": "Thu 22 Oct",
-      "isoDate": "2026-10-22",
+      "date": "Sun 25 Oct",
+      "isoDate": "2026-10-25",
       "theme": "The perfect match",
-      "themeLine": "Gale and Shapley's matching maths, O. Henry's doomed gifts, Shakespeare's \"marriage of true minds\", and new data on how AI is changing who gets hired.",
+      "themeLine": "How people and things get paired up.",
       "field": "Maths and market design",
       "paperType": "classic of its field",
-      "learn": "The simple method for pairing people up so no two would rather swap. It now runs New York City's high school admissions and medical residency matching, and led to a Nobel Prize.",
+      "learn": "The matching method behind NYC school admissions and medical residencies.",
       "items": {
         "paper": {
           "title": "College Admissions and the Stability of Marriage",
@@ -341,7 +342,7 @@
           "title": "Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of AI",
           "by": "Brynjolfsson, Chandar and Chen (Stanford), Aug 2026",
           "url": "https://digitaleconomy.stanford.edu/app/uploads/2026/08/Canaries_August2026.pdf",
-          "note": "No mass job losses yet, but young workers in AI-exposed jobs are 19% behind where they'd otherwise be."
+          "note": "No broad job losses yet, but employment for 22 to 25 year olds in AI-exposed jobs is about 19% lower than expected."
         },
         "story": {
           "title": "The Gift of the Magi",
@@ -351,8 +352,7 @@
         "poem": {
           "title": "Sonnet 116",
           "by": "William Shakespeare",
-          "url": "https://www.poetryfoundation.org/poems/45106/sonnet-116-let-me-not-to-the-marriage-of-true-minds",
-          "note": "\"Let me not to the marriage of true minds…\""
+          "url": "https://www.poetryfoundation.org/poems/45106/sonnet-116-let-me-not-to-the-marriage-of-true-minds"
         },
         "essay": {
           "title": "Meditations, Book 2",
@@ -363,13 +363,13 @@
     },
     {
       "night": 10,
-      "date": "Sun 25 Oct",
-      "isoDate": "2026-10-25",
+      "date": "Mon 26 Oct",
+      "isoDate": "2026-10-26",
       "theme": "Do we think in words?",
-      "themeLine": "New brain research says language is for talking, not thinking. Inside Claude, thoughts seem to live beneath any one language. Paul Graham argues writing is thinking.",
+      "themeLine": "Whether thinking needs language.",
       "field": "Linguistics and the mind",
       "paperType": "new research",
-      "learn": "The evidence that we don't need language to think: people who lose their language can still reason, do maths and play chess.",
+      "learn": "People who lose language can still reason, do maths and play chess.",
       "items": {
         "paper": {
           "title": "Language Is Primarily a Tool for Communication Rather than Thought",
@@ -380,13 +380,13 @@
           "title": "Tracing the Thoughts of a Large Language Model",
           "by": "Anthropic, 2025",
           "url": "https://www.anthropic.com/research/tracing-thoughts-language-model",
-          "note": "Looking inside Claude, researchers found it often thinks in concepts shared across languages, not in English or French."
+          "note": "Claude often uses concepts shared across languages rather than one language."
         },
         "story": {
           "title": "Mono no Aware",
           "by": "Ken Liu",
           "url": "https://www.lightspeedmagazine.com/fiction/mono-no-aware/",
-          "note": "Modern. A story built around a single Japanese phrase."
+          "note": "Modern."
         },
         "poem": {
           "title": "Digging",
@@ -397,7 +397,7 @@
           "title": "Writes and Write-Nots",
           "by": "Paul Graham",
           "url": "https://paulgraham.com/writes.html",
-          "note": "Argues the opposite: writing is thinking. A good fight with tonight's paper."
+          "note": "Argues that writing is thinking."
         }
       }
     }
