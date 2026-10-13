@@ -26,7 +26,7 @@ enum Demo {
             MainActor.assumeIsolated {
                 let router = Router.shared
                 if args.contains("-LamplightDemoReader") {
-                    router.read(night, from: .story)
+                    router.read(night, from: .essay)
                 } else if args.contains("-LamplightDemoPDF") {
                     router.read(night, from: .paper)
                 } else if args.contains("-LamplightDemoPlan") {

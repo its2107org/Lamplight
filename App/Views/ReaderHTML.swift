@@ -63,7 +63,7 @@ enum ReaderHTML {
 
     /// Turns any ordinary web page into warm night colours.
     static let nightCSS = """
-    html { filter: invert(0.9) hue-rotate(180deg) sepia(0.3) !important; background: #fff !important; }
+    html { color-scheme: light !important; filter: invert(0.92) hue-rotate(180deg) sepia(0.35) brightness(0.85) !important; background: #fff !important; }
     img, video, picture, canvas, iframe, svg image, [style*="background-image"] { filter: invert(1) hue-rotate(180deg) brightness(.75) !important; }
     """
 }

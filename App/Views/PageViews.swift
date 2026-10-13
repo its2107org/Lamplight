@@ -69,6 +69,8 @@ struct OriginalPageView: UIViewRepresentable {
         config.allowsInlineMediaPlayback = true
         let view = WKWebView(frame: .zero, configuration: config)
         view.customUserAgent = PageReader.userAgent
+        // Load the page in its light colours, then flip them dark (a page's own dark mode would flip to light).
+        view.overrideUserInterfaceStyle = .light
         context.coordinator.attach(to: view)
         view.load(URLRequest(url: url))
         return view
