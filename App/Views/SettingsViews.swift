@@ -73,6 +73,10 @@ struct SettingsView: View {
     @EnvironmentObject private var list: ReadingList
     @Environment(\.dismiss) private var dismiss
     @State private var permissionDenied = false
+    @EnvironmentObject private var shelf: ShelfLink
+    @State private var shelfKey = ""
+    @State private var connecting = false
+    @State private var connectFailed = false
 
     var body: some View {
         NavigationStack {
@@ -114,6 +118,38 @@ struct SettingsView: View {
                     Text("Reading")
                 } footer: {
                     Text("A dimmer screen matters more for sleep than its colour, so the page gets a touch darker after 10pm and again after 11pm. Leave the screen-on switch off if you might drift off mid-story.")
+                }
+
+                Section {
+                    if shelf.isConnected {
+                        LabeledContent("Shelf", value: "Connected")
+                    } else {
+                        SecureField("Paste the key from Shelf", text: $shelfKey)
+                            .textInputAutocapitalization(.never)
+                            .autocorrectionDisabled()
+                        Button {
+                            connecting = true
+                            Task {
+                                connectFailed = !(await shelf.connect(manualKey: shelfKey))
+                                connecting = false
+                                if !connectFailed { shelfKey = "" }
+                            }
+                        } label: {
+                            HStack {
+                                Text("Connect")
+                                Spacer()
+                                if connecting { ProgressView() }
+                            }
+                        }
+                        .disabled(shelfKey.isEmpty || connecting)
+                    }
+                } header: {
+                    Text("Shelf")
+                } footer: {
+                    Text(shelf.isConnected
+                         ? "Your Shelf saves and the top five For You picks appear under tonight's reading. Anything you finish in Shelf drops off here."
+                         : (connectFailed ? "That key didn't work. It's the same one you put into Shelf's settings."
+                            : "The top five For You picks show without this. To see your own Shelf saves too, paste the same key you put into Shelf's settings, once."))
                 }
 
                 Section {
