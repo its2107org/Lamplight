@@ -116,7 +116,9 @@ final class ContentStore: ObservableObject {
                 if article.words < 250, let pdfLink, let data = try? await reader.downloadPDF(pdfLink) {
                     return savePDF(data, piece: piece, base: base)
                 }
-                let minimum = piece.kind == .poem ? 12 : 120
+                // News sites often show only a teaser to strangers: then the original page (where
+                // Ian may be signed in) is better than a few paragraphs.
+                let minimum = piece.kind == .poem ? 12 : (piece.kind == .saved || piece.kind == .pick ? 300 : 120)
                 guard article.words >= minimum, !article.html.isEmpty else { break }
                 if let data = try? JSONEncoder().encode(article) {
                     try? data.write(to: base.appendingPathExtension("json"), options: .atomic)

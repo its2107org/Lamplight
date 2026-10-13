@@ -47,5 +47,8 @@ final class ReadingList: ObservableObject {
         if let tonight { nights.append(tonight) }
         if let next = lineup.next() { nights.append(next) }
         await ContentStore.shared.prefetch(nights)
+        // Shelf extras too, so they open instantly in bed.
+        let extras = ShelfLink.shared.extras
+        if !extras.isEmpty { await ContentStore.shared.prefetch([Night(extras: extras, title: "From your Shelf")]) }
     }
 }

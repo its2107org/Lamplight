@@ -47,7 +47,9 @@ enum SelfTest {
               let lineup = ReadingList.shared.lineup else { return }
         let store = ContentStore.shared
         var results: [[String: Any]] = []
-        for night in lineup.nights {
+        await ShelfLink.shared.refresh()
+        let extras = Night(extras: ShelfLink.shared.picks, title: "For you")
+        for night in lineup.nights + [extras] {
             for piece in night.pieces {
                 store.refresh(piece)
                 let started = Date()

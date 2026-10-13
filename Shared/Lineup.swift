@@ -3,6 +3,8 @@ import Foundation
 /// The five kinds of reading in a night.
 enum PieceKind: String, CaseIterable, Identifiable, Codable {
     case paper, ai, essay, story, poem
+    /// Extras from the Shelf app: things Ian saved, and the top For You picks.
+    case saved, pick
 
     var id: String { rawValue }
 
@@ -16,6 +18,8 @@ enum PieceKind: String, CaseIterable, Identifiable, Codable {
         case .essay: return "Essay"
         case .story: return "Story"
         case .poem: return "Poem"
+        case .saved: return "Saved"
+        case .pick: return "For you"
         }
     }
 
@@ -26,6 +30,8 @@ enum PieceKind: String, CaseIterable, Identifiable, Codable {
         case .essay: return "text.quote"
         case .story: return "book"
         case .poem: return "leaf"
+        case .saved: return "bookmark"
+        case .pick: return "star"
         }
     }
 
@@ -37,6 +43,7 @@ enum PieceKind: String, CaseIterable, Identifiable, Codable {
         case .essay: return 12
         case .story: return 15
         case .poem: return 3
+        case .saved, .pick: return 6
         }
     }
 }
@@ -52,14 +59,26 @@ struct Piece: Identifiable, Hashable, Decodable {
 
     var kind: PieceKind = .paper
     var nightNumber: Int = 0
+    /// Set for Shelf extras, which aren't tied to a night.
+    var key: String?
 
-    var id: String { "\(nightNumber)-\(kind.rawValue)" }
+    var id: String { key ?? "\(nightNumber)-\(kind.rawValue)" }
     var url: URL? { Self.makeURL(link) }
     /// The copy that reads best (a direct PDF, say), when the reading list gives one.
     var readingURL: URL? { readLink.flatMap(Self.makeURL) ?? url }
 
     private enum CodingKeys: String, CodingKey {
         case title, by, url, note, readUrl, minutes
+    }
+
+    init(title: String, by: String?, link: String, note: String? = nil, minutes: Int? = nil, kind: PieceKind, key: String) {
+        self.title = title
+        self.by = by
+        self.link = link
+        self.note = note
+        self.minutes = minutes
+        self.kind = kind
+        self.key = key
     }
 
     init(from decoder: Decoder) throws {
@@ -98,6 +117,17 @@ struct Night: Identifiable, Hashable, Decodable {
     private enum CodingKeys: String, CodingKey {
         case night, date, isoDate, theme, themeLine, field, paperType, learn, items
     }
+
+    /// A made-up "night" holding the Shelf extras, so they open in the same reader.
+    init(extras pieces: [Piece], title: String) {
+        number = -1
+        dateLabel = ""
+        theme = title
+        self.pieces = pieces
+        day = Date()
+    }
+
+    var isExtras: Bool { number < 0 }
 
     init(from decoder: Decoder) throws {
         let c = try decoder.container(keyedBy: CodingKeys.self)

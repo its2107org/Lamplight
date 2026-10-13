@@ -10,6 +10,8 @@ settings:
     # Replaced with the real Apple Team ID when building for TestFlight.
     DEVELOPMENT_TEAM: LAMPDEV000
     LAMPLIGHT_BUNDLE_ID: com.$(DEVELOPMENT_TEAM).lamplight
+    # Shelf's shared keychain group: Shelf puts the key to Ian's reading list here (synced by iCloud Keychain).
+    SHELF_KEYCHAIN_GROUP: $(AppIdentifierPrefix)com.$(DEVELOPMENT_TEAM).shelf.shared
     MARKETING_VERSION: "1.0"
     CURRENT_PROJECT_VERSION: "1"
     SWIFT_VERSION: "5.0"
@@ -62,6 +64,13 @@ targets:
               - lamplight
         NSAppTransportSecurity:
           NSAllowsArbitraryLoads: true
+        ShelfKeychainGroup: $(SHELF_KEYCHAIN_GROUP)
+    entitlements:
+      path: App/Lamplight.entitlements
+      properties:
+        keychain-access-groups:
+          - $(AppIdentifierPrefix)$(LAMPLIGHT_BUNDLE_ID)
+          - $(SHELF_KEYCHAIN_GROUP)
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: $(LAMPLIGHT_BUNDLE_ID)

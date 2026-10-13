@@ -70,6 +70,9 @@ final class PageReader: NSObject {
     }
 
     private func download(_ url: URL) async throws -> (Data, URLResponse) {
+        // Sign-ins made on an original page (say, a newspaper) count here too.
+        let cookies = await WKWebsiteDataStore.default().httpCookieStore.allCookies()
+        for cookie in cookies { HTTPCookieStorage.shared.setCookie(cookie) }
         // Plain "http" links: try the secure version first.
         if url.scheme == "http", var parts = URLComponents(url: url, resolvingAgainstBaseURL: false) {
             parts.scheme = "https"

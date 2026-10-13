@@ -9,6 +9,7 @@ struct LamplightApp: App {
     @StateObject private var store = ContentStore.shared
     @StateObject private var settings = ReaderSettings.shared
     @StateObject private var router = Router.shared
+    @StateObject private var shelf = ShelfLink.shared
 
     nonisolated private static let refreshTaskID = (Bundle.main.bundleIdentifier ?? "lamplight") + ".refresh"
 
@@ -24,6 +25,7 @@ struct LamplightApp: App {
                 .environmentObject(store)
                 .environmentObject(settings)
                 .environmentObject(router)
+                .environmentObject(shelf)
                 .preferredColorScheme(.dark)
                 .onOpenURL { router.handle($0) }
                 .task { await SelfTest.runIfRequested() }
@@ -33,6 +35,7 @@ struct LamplightApp: App {
             case .active:
                 Task {
                     await list.refresh()
+                    await shelf.refresh()
                     await list.prepareAhead()
                 }
             case .background:
@@ -44,6 +47,7 @@ struct LamplightApp: App {
         .backgroundTask(.appRefresh(Self.refreshTaskID)) {
             Self.scheduleRefresh()
             await ReadingList.shared.refresh()
+            await ShelfLink.shared.refresh()
             await ReadingList.shared.prepareAhead()
         }
     }

@@ -14,9 +14,10 @@ struct ReaderView: View {
     @EnvironmentObject private var settings: ReaderSettings
     @EnvironmentObject private var readingProgress: ReadingProgress
 
-    init(night: Night, start: PieceKind?) {
+    init(night: Night, start: PieceKind?, startPiece: String? = nil) {
         self.night = night
-        let first = start.flatMap { kind in night.pieces.firstIndex { $0.kind == kind } }
+        let first = startPiece.flatMap { id in night.pieces.firstIndex { $0.id == id } }
+            ?? start.flatMap { kind in night.pieces.firstIndex { $0.kind == kind } }
             ?? night.pieces.firstIndex { !ReadingProgress.shared.isDone($0) }
             ?? 0
         _index = State(initialValue: first)
@@ -91,7 +92,7 @@ struct ReaderView: View {
             }
             Spacer(minLength: 8)
             Menu {
-                Section("Tonight") {
+                Section(night.isExtras ? "From your Shelf" : "Tonight") {
                     ForEach(Array(night.pieces.enumerated()), id: \.element.id) { offset, item in
                         Button {
                             progress = 0
@@ -140,7 +141,7 @@ struct ReaderView: View {
                 HStack(spacing: 10) {
                     if isLast {
                         Image(systemName: "moon.stars.fill")
-                        Text("Finish tonight").font(.lamp(17, .semibold))
+                        Text(night.isExtras ? "Done" : "Finish tonight").font(.lamp(17, .semibold))
                     } else {
                         let next = night.pieces[index + 1]
                         Text(atEnd ? "Next" : "Skip to").font(.label(12)).tracking(1).textCase(.uppercase).opacity(0.75)
@@ -166,6 +167,7 @@ struct ReaderView: View {
         if atEnd { readingProgress.setDone(piece, true) }
         if isLast {
             readingProgress.setDone(piece, true)
+            if night.isExtras { dismiss(); return }
             withAnimation(.easeInOut(duration: 0.6)) { showGoodnight = true }
         } else {
             progress = 0

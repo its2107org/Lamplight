@@ -34,7 +34,7 @@ struct RootView: View {
         .background(Palette.background.ignoresSafeArea())
         .background(PageReaderAnchor().frame(width: 1, height: 1))
         .fullScreenCover(item: $router.reading) { request in
-            ReaderView(night: request.night, start: request.start)
+            ReaderView(night: request.night, start: request.start, startPiece: request.startPiece)
         }
         .sheet(isPresented: $router.showSettings) { SettingsView() }
     }

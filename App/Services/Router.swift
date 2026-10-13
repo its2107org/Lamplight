@@ -4,7 +4,8 @@ import Foundation
 struct ReaderRequest: Identifiable, Equatable {
     let night: Night
     let start: PieceKind?
-    var id: String { "\(night.number)-\(start?.rawValue ?? "next")" }
+    var startPiece: String? = nil
+    var id: String { "\(night.number)-\(start?.rawValue ?? "next")-\(startPiece ?? "")" }
 
     static func == (a: ReaderRequest, b: ReaderRequest) -> Bool { a.id == b.id }
 }
@@ -17,8 +18,8 @@ final class Router: ObservableObject {
     @Published var showSettings = false
     @Published var showPlan = false
 
-    func read(_ night: Night, from start: PieceKind?) {
-        reading = ReaderRequest(night: night, start: start)
+    func read(_ night: Night, from start: PieceKind?, piece: Piece? = nil) {
+        reading = ReaderRequest(night: night, start: start, startPiece: piece?.id)
     }
 
     /// Opens tonight's reading where you left off (or the next night, on nights off).

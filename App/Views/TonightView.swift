@@ -9,8 +9,10 @@ struct TonightView: View {
         ScrollView {
             if let tonight = list.tonight {
                 NightView(night: tonight, isTonight: true)
+                ShelfSection()
             } else if list.lineup != nil {
                 NightOff()
+                ShelfSection()
             } else {
                 Text("The reading list hasn't arrived yet. Check you're online.")
                     .font(.lamp(18))
@@ -19,7 +21,10 @@ struct TonightView: View {
             }
         }
         .scrollIndicators(.hidden)
-        .refreshable { await list.refresh() }
+        .refreshable {
+            await list.refresh()
+            await ShelfLink.shared.refresh()
+        }
     }
 }
 
